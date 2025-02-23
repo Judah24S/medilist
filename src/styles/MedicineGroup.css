@@ -1,0 +1,10 @@
+/* Apply blur effect to the entire list when modal is open */
+.medicine-list.blurred {
+    backdrop-filter: blur(5px); /* Apply blur to the background */
+    filter: blur(5px); /* To support older browsers */
+  }
+  
+  /* Optional: Custom styling for modal content */
+  .modal-content {
+    border-radius: 8px;
+  }
